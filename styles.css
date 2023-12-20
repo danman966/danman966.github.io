@@ -1,3 +1,201 @@
-body {background-color: powderblue;}
-h1   {color: blue;}
-p    {color: red;}
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin: 0;
+    align-items: center; 
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.header {
+    /* border: 1px solid #000; Change to your preferred color and thickness */
+    padding: 10px;
+    text-align: center;
+    
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    color: black; /*Change the text color to contrast with the background*/
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img1 {
+    vertical-align: middle;
+    width: 30%; /* Adjust as needed */
+    height: 30%; /* Adjust as needed */
+    padding-right: 10px;
+    padding-left: 50px;
+}
+.header-img2 {
+    vertical-align: middle;
+    width: 25%; /* Adjust as needed */
+    height: 25%; /* Adjust as needed */
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+
+section {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.1);
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: transparent;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+#sidebar {
+    flex: 0 0 200px; /* This means the sidebar will always be 200px wide */
+    padding: 10px;
+    display: inline-block;
+}
+
+#sidebar ul li a:hover {
+    color: #5788d9;
+}
+
+#sidebar ul {
+    flex: 0 0 200px; /* This means the sidebar will always be 200px wide */
+    background-color: #333; /* Your preferred color */
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    margin: 15px 10px;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#sidebar ul li a.active {
+    color: #2d6ed6; 
+}
+
+@media (max-width: 600px) {
+    #sidebar {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+}
+
+.container {
+    display: flex;
+    
+}
+
+/* ul {
+    margin-top: 20px; Adjust as needed */
+/* } */
+
+.content {
+    display: flex; 
+    flex-direction: column;
+    max-width: 100%;
+    width: auto;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-left: 20px;
+} 
+
+
+
+/* For the slideshow */
+.slideshow {
+    display: flex; 
+    position: relative;
+    max-width: 600px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+}
+
+.slide {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide.active {
+    display: block;
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+}

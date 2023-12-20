@@ -1,0 +1,9 @@
+.container {
+    width: auto;
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-left: 50px;
+
+    max-width: 1000px;
+    margin: auto;
+}

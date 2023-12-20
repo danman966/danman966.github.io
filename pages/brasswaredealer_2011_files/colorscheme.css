@@ -1,0 +1,182 @@
+/*----------------------------------------------------------------------------
+	colorscheme.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background: repeat-y;
+    background-image: url(/web/20110207212417im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/colorschemes/colorscheme5/images/static/contentbg.gif);
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background: top no-repeat;
+    background-image: url(/web/20110207212417im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/colorschemes/colorscheme5/images/static/headerbg.gif);
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    background: repeat-y;
+    background-image: url(/web/20110207212417im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/colorschemes/colorscheme5/images/static/navbg.gif);
+}
+
+/*--- sub navigation -------------------------------------------------------*/
+
+.sub_nav_container {
+    background: repeat-y;
+    background-image: url(/web/20110207212417im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/colorschemes/colorscheme5/images/static/subnavbg.gif);
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+    background: no-repeat;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+    background: no-repeat;
+}
+
+/*--- caption --------------------------------------------------------------*/
+
+#slogan {
+    background: #59503B no-repeat;
+    background-image: url(/web/20110207212417im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/colorschemes/colorscheme5/images/static/sloganbg.gif);
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- main navigation items ------------------------------------------------*/
+
+a.main_nav_item:hover {
+    background: repeat-x;
+    background-position: top left;
+}
+
+a.main_nav_active_item {
+    background: repeat-x;
+    background-position: top left;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+a.sub_nav_item:hover {
+    background: no-repeat;
+    background-position: top left;
+}
+
+a.sub_nav_active_item {
+    background: no-repeat;
+    background-position: top left;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #1A1A1A;
+    background: #1E1B14 top repeat-x;
+    background-image: url(/web/20110207212417im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/colorschemes/colorscheme5/images/static/pgbk.gif);
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+.content {
+    color: #1A1A1A;
+}
+
+.content table {
+    color: #1A1A1A;
+    border-color: #91070B;
+}
+
+.content select {
+    color: #1A1A1A;
+}
+
+.content input {
+    color: #1A1A1A;
+    border-color: #010101;
+}
+
+.content textarea {
+    color: #1A1A1A;
+    border-color: #010101;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+/*--- links ----------------------------------------------------------------*/
+
+/*--- tables ---------------------------------------------------------------*/
+
+.content td {
+    border-color: #91070B;
+}
+
+.content th {
+    color: #ffffff;
+    background-color: #91070B;
+}
+
+.content tr.odd {
+    color: #000000;
+    background-color: #EDE9D6;
+}
+
+.content tr.even {
+    color: #000000;
+    background-color: #FFFFFA;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+.content fieldset {
+    border-color: #010101;
+}
+
+.content legend {
+    color: #EC8A01;
+}
+
+.content label {
+    color: #010101;
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+/*
+     FILE ARCHIVED ON 21:24:17 Feb 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:45:22 Dec 14, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 62.611
+  exclusion.robots: 0.086
+  exclusion.robots.policy: 0.074
+  cdx.remote: 0.068
+  esindex: 0.009
+  LoadShardBlock: 29.367 (3)
+  PetaboxLoader3.datanode: 43.124 (4)
+  load_resource: 56.729
+  PetaboxLoader3.resolve: 23.021
+*/

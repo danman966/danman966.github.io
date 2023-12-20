@@ -1,0 +1,361 @@
+
+div#logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#footer_text a {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  color: #4C4C47;
+  text-decoration: underline; white-space: nowrap;
+}
+
+    
+#key_visual {
+   background: url(/web/20110207212200im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/resources/banner-valve-felix-lighter.jpg) no-repeat;
+}
+#slogan {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #cb7703;
+}
+a.main_nav_active_item {
+  background: url(/web/20110207212200im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/images/dynamic/buttonset5/n1active.gif) no-repeat;
+  font-family: Tahoma,Verdana,Arial,sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFCE23;
+  background-position: top left;
+}
+a.main_nav_item {
+  font-family: Tahoma,Verdana,Arial,sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #DCD8C5;
+}
+a.main_nav_item:hover {
+  background: url(/web/20110207212200im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/images/dynamic/buttonset5/n1active.gif) no-repeat;
+  font-family: Tahoma,Verdana,Arial,sans-serif;
+  font-style: normal;
+  font-size: 11px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #FFCE23;
+  background-position: top left;
+}
+a.sub_nav_active_item {
+  background: url(/web/20110207212200im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/images/dynamic/buttonset5/sn1active.gif) no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #FFCE23;
+  background-position: top left;
+}
+a.sub_nav_item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #BBB5A4;
+}
+a.sub_nav_item:hover {
+  background: url(/web/20110207212200im_/http://www.brasswaredealer.co.uk/online/templatemedia/all_lang/images/dynamic/buttonset5/sn1active.gif) no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #FFCE23;
+  background-position: top left;
+}
+.content h1 {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #51160D;
+}
+.content h2 {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #91070B;
+}
+.content h3 {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3B3B3B;
+}
+.content, .content p {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content a:link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 100%;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #981700;
+}
+.content a:visited {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 100%;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #981700;
+}
+.content a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 100%;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #CB7703;
+}
+.content a:active {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 100%;
+  font-weight: normal;
+  text-decoration: underline;
+  color: #CB7703;
+}
+#footer_text {
+  font-family: Trebuchet MS,sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #4C4C47;
+}
+.content .label_form {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .text_breadcrumb {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .label_text_price_overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3B3B3B;
+}
+.content .label_text_old_price_overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3B3B3B;
+}
+.content .text_headline_item_product_overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3B3B3B;
+}
+.content .text_product_overview {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .text_headline_product_detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 29px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #51160D;
+}
+.content .label_text_price_detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #91070B;
+}
+.content .label_text_old_price_detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #91070B;
+}
+.content .text_product_detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .text_tax_shipping_product_detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .text_availability_in_stock_product {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #008000;
+}
+.content .text_availability_running_out_product {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffa500;
+}
+.content .text_availability_out_of_stock_product {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ff0000;
+}
+.content .text_availability_no_data_product {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .text_total_sum_cart {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #1A1A1A;
+}
+.content .label_text_availability_in_stock {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #008000;
+}
+.content .label_text_availability_reorder_unknown {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ff0000;
+}
+.content .label_text_availability_reorder_short {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #008000;
+}
+.content .label_text_availability_reorder_medium {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffa500;
+}
+.content .label_text_availability_reorder_long {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ff0000;
+}
+.content .label_text_availability_out_of_stock {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ff0000;
+}
+.content .label_text_availability_stock_short {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffa500;
+}
+
+
+/*
+     FILE ARCHIVED ON 21:22:00 Feb 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:45:22 Dec 14, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 129.78
+  exclusion.robots: 0.142
+  exclusion.robots.policy: 0.082
+  cdx.remote: 0.064
+  esindex: 0.013
+  LoadShardBlock: 79.925 (3)
+  PetaboxLoader3.datanode: 160.079 (4)
+  load_resource: 132.546
+  PetaboxLoader3.resolve: 39.747
+*/

@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
+    <title>DanMat</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="title-container">
+        <!-- <h1 class="title">DanMat</h1> -->
+        <h1> DanMat</h1>
+        <img src="assets/images/danmat_logo.png" alt="DanMat Logo" class="header-img1">
+        <img src="assets/images/bd_logo.png" alt="Brassware Dealer Logo" class="header-img2">
+    </div>
+    <!-- <div class = "title-container"> -->
+    <!-- </div> -->
+    <div class="container">
+        <div id="sidebar">
+                <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="pages/MonstersPage.html">DanMat KIDS Page <br>(2004)</a></li>
+                        <li><a href="pages/danmat2007.html">DanMat <br>(2007)</a></li>
+                        <li><a href="pages/danmat2011.html">DanMat <br>(2011)</a></li>
+                        <li><a href="pages/brasswaredealer_2011_snap.html">Brassware Dealer <br>(2011)</a></li>
+                        <li><a href="pages/brasswaredealer_2012.html">Brassware Dealer <br>(2012)</a></li>
+                        <li><a href="pages/brasswaredealer_2017.html">Brassware Dealer <br>(2017 - 2023)</a></li>
+                        <!-- Add more pages as needed -->
+                </ul>
+        </div>
+        <div class="content">
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+            <h2>About</h2>
+                This is the website which was formerly home to
+            
+            <ul>
+                <li> DanMat computer services; and</li>
+                <li> Brassware Dealer</li>
+            </ul>
+
+                Both businesses have unfortunately been closed.
+                <br>
+                <br>
+                The links on the left will take you to the business pages at different times in its lifecycle.
+                These have been recovered and remastered from the Internet Archive.
+                <br>
+                <br>
+                <h2> Trivia</h2>
+                DanMat was named after Terry's two sons, Daniel and Matthew (the former of which is writing this).
+                <br>
+                <br>
+                Terry would never charge anyone unless he actually fixed their computer problems.
+                <br>
+                <br>
+                Terry would often give discounts if he knew someone was struggling financially, or having other difficulties.
+                <br>
+                <br>
+                Me and my brother would often tag along to jobs, and Terry would give us opportunities to help out (and would pay us more than we deserved).
+                <br>
+                <br>
+                <h2> Gallery</h2>              
+                <div class="slideshow">
+                    <div class="slide active">
+                        <img src="assets/images/escape_room.jpg" alt="Image 1">
+                        <div class="caption">From left to right: Danny, Matt, Lynne, Terry</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/lynne.jpg" alt="Image 2">
+                        <div class="caption">Terry and Lynne</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/matt.jpg" alt="Image 2">
+                        <div class="caption">Matt and Terry</div>
+                    </div>
+                    <div class="slide">
+                        <img src="assets/images/dan.jpg" alt="Image 2">
+                        <div class="caption">Danny and Terry</div>
+                    </div>
+                    <!-- Add more slides as needed -->
+                    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+                
+                
+        </div>
+
+        
+    </div>
+
+    <script>
+        var slideIndex = 0;
+        showSlide(slideIndex);
+    
+        function changeSlide(n) {
+            showSlide(slideIndex += n);
+        }
+    
+        function showSlide(n) {
+            var i;
+            var slides = document.getElementsByClassName("slide");
+            if (n >= slides.length) {slideIndex = 0}
+            if (n < 0) {slideIndex = slides.length - 1}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slides[slideIndex].style.display = "block";  
+        }
+    </script>
 
 </body>
 </html>
-
