@@ -87,12 +87,6 @@ h1 {
     margin: 20px 0;
 }
 
-#sidebar {
-    flex: 0 0 200px; /* This means the sidebar will always be 200px wide */
-    padding: 10px;
-    display: inline-block;
-}
-
 #sidebar ul li a:hover {
     color: #5788d9;
 }
